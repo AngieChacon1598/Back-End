@@ -1070,6 +1070,10 @@ def agregar_certificacion():
     # Validaciones explícitas
     if not codigo_egresado:
         return jsonify({'message': 'El campo codigo_egresado es obligatorio'}), 400
+    # Validar que el egresado exista
+    egresado = Egresado.query.filter_by(codigo=codigo_egresado).first()
+    if not egresado:
+        return jsonify({'message': 'El codigo_egresado no existe en la base de datos'}), 400
     if not nombre:
         return jsonify({'message': 'El campo nombre es obligatorio'}), 400
     if not institucion:
