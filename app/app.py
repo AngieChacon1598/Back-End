@@ -26,7 +26,10 @@ import seaborn as sns
 
 # Inicialización de la app Flask
 app = Flask(__name__, static_folder='static', static_url_path='/')
-CORS(app)
+CORS(app, origins=[
+    "https://front-end-rki1.onrender.com",
+    "http://localhost:3000"
+])
 
 GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbzI_811QN5p0WNsmcjpYxzfvLmMQJL6ZrkKFqKNqye9MSJQ6hVYbOVvOYnf1FYof74B/exec'
 
