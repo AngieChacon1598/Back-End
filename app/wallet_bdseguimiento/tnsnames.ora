@@ -1,0 +1,12 @@
+bdseguimiento_high = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g9979f44d87a094_bdseguimiento_high.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+bdseguimiento_low = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g9979f44d87a094_bdseguimiento_low.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+bdseguimiento_medium = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g9979f44d87a094_bdseguimiento_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+bdseguimiento_tp = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g9979f44d87a094_bdseguimiento_tp.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+bdseguimiento_tpurgent = (description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-saopaulo-1.oraclecloud.com))(connect_data=(service_name=g9979f44d87a094_bdseguimiento_tpurgent.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+
+
+
